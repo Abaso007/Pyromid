@@ -25,10 +25,7 @@ def getClear():
 
 def KeyGen(size):
 	k = "".join(random.choice('0122333444455555666666777777788888888999999999abcdef') for _ in range(size))
-	if int(k, 16) < MAX_PRIVATE_KEY:
-		return k
-	else:
-		return KeyGen(size)
+	return k if int(k, 16) < MAX_PRIVATE_KEY else KeyGen(size)
 
 
 def Hex_To_Addr(hexed, compress):
@@ -36,7 +33,7 @@ def Hex_To_Addr(hexed, compress):
 
 
 def Rich_Loader(FileName):
-	return set([i.strip() for i in open(FileName).readlines()])
+	return {i.strip() for i in open(FileName).readlines()}
 
 
 def getHeader(richFile, loads, found):
