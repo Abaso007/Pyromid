@@ -42,7 +42,7 @@ pip3 install blessed
 ```
 
 
-running Online On Deepnote : [Run Now](https://deepnote.com/workspace/vector3-2875d102-c334-4676-ba51-26d1b8ccd3a4/project/Pyromid-a6c0b425-8e00-4b95-9284-0dfbdd5bdab1/notebook/Pyromid-b705a08bfa44458e850b9d7befc26cda)
+running Online On Deepnote : [Run Now](https://deepnote.com/app/vector3/Pyromid-a6c0b425-8e00-4b95-9284-0dfbdd5bdab1)
 
 
 
