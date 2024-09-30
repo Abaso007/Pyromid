@@ -11,7 +11,7 @@ pip3 install cryptofuzz colorthon blessed
 
 [*NOTE*]: if needed to rich address wallet list can use `Bits.txt` (3333 Address)
 
-Change Thread Core Number On [Line 212](https://github.com/Pymmdrza/Pyromid/blob/ee4669ebc04c5934d44270beb31b611040019c8c/pyromid.py#L104) ( `coreTotal = 4` changed `4` ) 
+Change Thread Core Number On [Line 104](https://github.com/Pymmdrza/Pyromid/blob/ee4669ebc04c5934d44270beb31b611040019c8c/pyromid.py#L104) ( `coreTotal = 4` changed `4` ) 
 
 better use from update list from : [Rich Address Wallet](https://github.com/Pymmdrza/Rich-Address-Wallet)
 
