@@ -1,34 +1,34 @@
-# Pyromid
----
+# Pyromid 
+## Bulk Recovery From Mnemonic Method for Compressed and Uncompressed Bitcoin Wallet
 
-### Pyromid V3 [New Version]
+```bash
+pip install cryptofuzz colorthon blessed
+```
+linux : 
+```bash
+pip3 install cryptofuzz colorthon blessed
+```
 
-✔️ Screen From Pyromid V3 [Coming Soon].
-
-![](https://raw.githubusercontent.com/Pymmdrza/Pyromid/mainx/media/Pyromid__3.png)
-
----
-
-⚠️ I am preparing and finalizing this `(Pyromid version 3)` and you can get it here soon, if you are one of those friends who have just come to my page, I must announce that until version 3 of this script is ready and finalized, you can Use [Pyromid version 2](https://github.com/Pymmdrza/Pyromid/blob/mainx/Pyromid_V2.py 'Pyromid v2 for cracking and Hunting High speed private key bitcoin wallet') which is ready and published by me.
-
-### ↪️ [Pyromid_V2.py](https://github.com/Pymmdrza/Pyromid/blob/mainx/Pyromid_V2.py 'Pyromid v2 for cracking and Hunting High speed private key bitcoin wallet')
+[*NOTE*]: if needed to rich address wallet list can use `Bits.txt` (3333 Address)
 
 
-![Pyromid v2 new updated](https://raw.githubusercontent.com/Pymmdrza/Pyromid/media/media/pyromid2.gif 'Pyromid v2 New update')
+better use from update list from : [Rich Address Wallet](https://github.com/Pymmdrza/Rich-Address-Wallet)
 
 
-### Dowbload Pyromid V2 `update`
-
-[Pyromid V2](https://github.com/Pymmdrza/Pyromid/blob/mainx/Pyromid_V2.py 'Pyromid v2 for cracking and Hunting High speed private key bitcoin wallet') `updated`
+Crack and Hunting Mnemonic Bitcoin Wallet for Fast Recovery with New Method.
 
 
+[Pyromid](https://github.com/Pymmdrza/Pyromid/blob/mainx/pyromid.py 'Pyromid v2 for cracking and Hunting High speed private key bitcoin wallet') `updated`
 
-### install & use Pyromid v2:
+
+
+### install & use Pyromid:
 
 #### windows with `pip`:
 ```bash
-pip install cryptofuzz
+pip install --upgrade cryptofuzz
 pip install colorthon
+pip install blessed
 ```
 #### Linux & Mac with `pip3`:
 
@@ -37,10 +37,11 @@ pip install colorthon
 sudo apt-get update&&sudo apt-get upgrade -y
 pip3 install cryptofuzz
 pip3 install colorthon
+pip3 install blessed
 ```
 
 
-running Online On Replit : [Run Now](https://replit.com/@MrPyMmdrza/Pyromid-v2)
+running Online On Deepnote : [Run Now](https://deepnote.com/workspace/vector3-2875d102-c334-4676-ba51-26d1b8ccd3a4/project/Pyromid-a6c0b425-8e00-4b95-9284-0dfbdd5bdab1/notebook/Pyromid-b705a08bfa44458e850b9d7befc26cda)
 
 
 
@@ -61,30 +62,3 @@ Pyromid For Cracking and Hunting Any Wallet Bitcoin From Mnemonic's Method on Pr
 ![Pyromid Crack Private Key Bitcoin Wallet From Mnemonic](https://raw.githubusercontent.com/Pymmdrza/Pyromid/mainx/media/Pyromid.gif 'Pyromid Crack Private Key Bitcoin Wallet From Mnemonic')
 
 
-running with this details : File name for rich Address List :`richFile_Address.txt` and save Found (Match) Address Detail's Saved in `Found.txt`:
-
-if needed rich address list for bitcoin : [Can Use This File](https://github.com/Pymmdrza/Rich-Address-Wallet/releases/tag/BTC.RiCH.2023)
-
-```
-# Windows :
-python pyromid.py -r richFile_Address.txt -o Found.txt
-
-# Linux :
-python3 pyromid.py -r richFile_Address.txt -o Found.txt
-```
-or :
-```
-# Windows :
-python pyromid.py --rich richFile_Address.txt --out Found.txt
-
-# Linux :
-python3 pyromid.py --rich richFile_Address.txt --out Found.txt
-```
-
-`-r` or `--rich` : For Rich List Address Filename With `.txt` format.
-
-`-o` or `--out` : For Filename Founding and Matching Address Wallet Detail's Saved.
-
-`-t` or `--thread` : Total Thread Number CPU Core Set with this Number . Default:4.
-
-`python` `pyromid.py` `[option1(-r|--rich)]` `[option2(-o|--out)]`
